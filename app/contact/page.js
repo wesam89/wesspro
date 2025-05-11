@@ -24,6 +24,10 @@ export default function Contact() {
     <>
       <PageTitle>Contact Us</PageTitle>
       <div className="container">
+        <div className="bg-green-400/0 px-10 py-5 text-xl md:mx-auto md:w-7/10">
+          Feel free to reach out if you have any questions or would like a
+          quote. We are happy to help!
+        </div>
         <div className="bg-green-400/0 px-10 py-5 md:mx-auto md:w-7/10">
           <form action={formAction}>
             <label htmlFor="projectType">Project Type:</label>

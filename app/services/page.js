@@ -8,7 +8,7 @@ export default function Services() {
       <div className="container">
         <Service
           title="Residential Interior and Exterior Painting"
-          pic="/images/IMG_0007.jpg"
+          pic="/images/05.jpg"
           alt="test"
         >
           Transform your home with professional painting services tailored to
@@ -19,7 +19,7 @@ export default function Services() {
 
         <Service
           title="Drywall Installation and Repair"
-          pic="/images/IMG_0007.jpg"
+          pic="/images/04.jpg"
           alt="test"
         >
           From new drywall installations to seamless repairs, we provide expert
@@ -30,7 +30,7 @@ export default function Services() {
 
         <Service
           title="Stipple Ceiling Removal"
-          pic="/images/IMG_0007.jpg"
+          pic="/images/07.jpg"
           alt="test"
         >
           Upgrade your ceilings by removing outdated stipple (popcorn) textures.
@@ -38,11 +38,7 @@ export default function Services() {
           ceilings that brighten and update any room.
         </Service>
 
-        <Service
-          title="Baseboard Installation"
-          pic="/images/IMG_0007.jpg"
-          alt="test"
-        >
+        <Service title="Baseboard Installation" pic="/images/09.jpg" alt="test">
           Achieve a polished, elegant look with expertly installed baseboards.
           We ensure precise cuts and seamless alignment, adding a refined finish
           to any space while protecting walls from daily wear.
@@ -50,7 +46,7 @@ export default function Services() {
 
         <Service
           title="Drywall Finishing: Mud and Tape Application"
-          pic="/images/IMG_0007.jpg"
+          pic="/images/08.jpg"
           alt="test"
         >
           Perfectly smooth drywall is achieved through precise mudding and
