@@ -12,7 +12,7 @@ export default function Services() {
           alt="test"
         >
           Transform your home with professional painting services tailored to
-          enhance durability and aesthetics. Whether it's refreshing walls
+          enhance durability and aesthetics. Whether it&apos;s refreshing walls
           indoors or protecting exteriors from harsh weather, our skilled
           painters ensure a flawless finish
         </Service>

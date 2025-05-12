@@ -25,9 +25,10 @@ export default function Home() {
           Welcome to Wess Pro Construction Inc. where craftsmanship meets
           quality. We specialize in residential interior and exterior painting,
           drywall installation and repair, stipple ceiling removal, baseboard
-          installation, and drywall finishing. Whether you're looking to refresh
-          your home, enhance durability, or modernize your space, our expert
-          team is here to deliver flawless results with attention to detail.
+          installation, and drywall finishing. Whether you&apos;re looking to
+          refresh your home, enhance durability, or modernize your space, our
+          expert team is here to deliver flawless results with attention to
+          detail.
         </p>
 
         <div className="my-5 px-5">
