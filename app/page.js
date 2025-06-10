@@ -104,7 +104,7 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 {/* Testimonials Section */}
 <div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5 text-center">
 <h2 className="text-[7vw] md:text-[40px] mb-5">Ottawa Client Success Stories</h2>
-<div className="italic text-xl max-w-2xl mx-auto">â€œ{testimonials[currentTestimonial].text}â€ </div>
+<div className="italic text-xl max-w-2xl mx-auto">"{testimonials[currentTestimonial].text}"</div>
 <div className="mt-5 font-bold">- {testimonials[currentTestimonial].name}</div>
 <button
 className="mt-10 bg-[#FFD700] text-black px-7 py-3 rounded-lg text-lg font-semibold transition hover:bg-[#e6c200]"
