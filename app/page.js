@@ -101,7 +101,7 @@ WESS PRO CONSTRUCTION INC delivers exceptional painting, drywall, and finishing 
 <div className="bg-black text-white py-20 px-5 text-center">
 <h2 className="text-[7vw] md:text-[40px] mb-5">See Our Craftsmanship in Action</h2>
 <p className="text-lg max-w-3xl mx-auto mb-12">
-From drywall installation to popcorn ceiling removal and flawless painting, here's a glimpse of the high-quality work we deliver.
+From drywall installation to popcorn ceiling removal and flawless painting, here is a glimpse of the high-quality work we deliver.
 </p>
 <div className="flex justify-center gap-5 flex-wrap">
 <img src="/images/painting2.jpg" className="w-[300px] h-[200px] rounded-xl object-cover" alt="gallery1" />
