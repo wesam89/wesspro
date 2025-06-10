@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Menu from './components/Menu';
 
 export default function Home() {
@@ -55,6 +56,13 @@ alert("Thank you for your review!");
 
 return (
 <div>
+<Head>
+<title>WESS PRO CONSTRUCTION INC | Ottawa Drywall & Painting Experts</title>
+<meta name="description" content="Experts in residential and commercial painting, popcorn ceiling removal, drywall installation, taping, mudding, sanding, and repairs in Ottawa." />
+<meta property="og:title" content="WESS PRO CONSTRUCTION INC - Ottawa's Best Drywall & Painting Services" />
+<meta property="og:url" content="https://www.wesspro.ca/" />
+</Head>
+
 <Menu />
 
 {/* Hero Section */}
