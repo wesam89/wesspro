@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
 title: 'WESS PRO CONSTRUCTION INC | Ottawa Drywall & Painting Experts',
 description: 'Experts in drywall installation, painting, popcorn ceiling removal, taping and finishing in Ottawa.',
+icons: {
+icon: '/favicon.png', // ← استخدم .png بما إنو هذا الملف يلي بالمجلد
+},
 };
 
 export default function RootLayout({ children }) {
