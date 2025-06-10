@@ -61,6 +61,8 @@ return (
 <meta name="description" content="Experts in residential and commercial painting, popcorn ceiling removal, drywall installation, taping, mudding, sanding, and repairs in Ottawa." />
 <meta property="og:title" content="WESS PRO CONSTRUCTION INC - Ottawa's Best Drywall & Painting Services" />
 <meta property="og:url" content="https://www.wesspro.ca/" />
+<meta property="og:image" content="https://www.wesspro.ca/images/wesspro-logoo.png" />
+<meta property="og:type" content="website" />
 </Head>
 
 <Menu />
