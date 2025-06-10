@@ -126,7 +126,7 @@ Leave a Review
 </div>
 
 {/* Review Form */}
-<div id="review-form" className="bg-black text-white py-20 px-5 text-center">
+<div id="review-form" className="bg-black text-white dark:bg-white dark:text-black py-20 px-5 text-center transition-colors duration-300">
 <h2 className="text-[7vw] md:text-[40px] mb-8">Leave a Review</h2>
 <form onSubmit={handleReviewSubmit} className="max-w-lg mx-auto">
 <input
@@ -134,14 +134,14 @@ type="text"
 placeholder="Your Name"
 value={reviewName}
 onChange={(e) => setReviewName(e.target.value)}
-className="w-full p-4 mb-5 rounded-md text-black"
+className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
 required
 />
 <textarea
 placeholder="Your Review"
 value={reviewText}
 onChange={(e) => setReviewText(e.target.value)}
-className="w-full p-4 mb-5 rounded-md text-black min-h-[120px]"
+className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 min-h-[120px] dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
 required
 />
 <button

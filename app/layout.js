@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Wissams Website',
-  description: 'Best Renovation Company!',
+title: 'WESS PRO CONSTRUCTION INC | Ottawa Drywall & Painting Experts',
+description: 'Experts in drywall installation, painting, popcorn ceiling removal, taping and finishing in Ottawa.',
 };
 
 export default function RootLayout({ children }) {
