@@ -6,7 +6,7 @@ return (
 <div className="bg-gradient-to-l from-black to-[#c19220] text-white min-h-screen flex flex-col justify-center items-center px-5">
 <h1 className="bg-amber-300/0 text-5xl py-10 text-center">Contact Us</h1>
 <p className="text-center text-lg mb-12 max-w-2xl">
-We&apos;re here to help! Reach out to us anytime for inquiries, quotes, or general questions.
+We&apos;re always here to help! Reach out to us anytime for inquiries, quotes, or general questions.
 </p>
 
 <div className="max-w-2xl text-lg flex flex-col items-center">
