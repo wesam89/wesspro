@@ -115,17 +115,25 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 {/* Testimonials Section */}
 <div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5 text-center">
 <h2 className="text-[7vw] md:text-[40px] mb-5">Ottawa Client Success Stories</h2>
-<div className="italic text-xl max-w-2xl mx-auto">{testimonials[currentTestimonial].text} </div>
+<div className="italic text-xl max-w-2xl mx-auto">{testimonials[currentTestimonial].text}</div>
 <div className="mt-5 font-bold">- {testimonials[currentTestimonial].name}</div>
+
+{/* زر التقييم على فيسبوك */}
+<a
+href="https://www.facebook.com/profile.php?id=61557441759603&sk=reviews"
+target="_blank"
+rel="noopener noreferrer"
+>
 <button
 className="mt-10 bg-[#FFD700] text-black px-7 py-3 rounded-lg text-lg font-semibold transition hover:bg-[#e6c200]"
-onClick={() => document.getElementById("review-form").scrollIntoView({ behavior: "smooth" })}
 >
 Leave a Review
 </button>
+</a>
 </div>
 
-{/* Review Form */}
+{/* Review Form (يمكنك حذفه إذا ما عدت تستخدمه) */}
+{/*
 <div id="review-form" className="bg-black text-white dark:bg-white dark:text-black py-20 px-5 text-center transition-colors duration-300">
 <h2 className="text-[7vw] md:text-[40px] mb-8">Leave a Review</h2>
 <form onSubmit={handleReviewSubmit} className="max-w-lg mx-auto">
@@ -152,6 +160,7 @@ Submit Review
 </button>
 </form>
 </div>
+*/}
 
 {/* Footer */}
 <div className="bg-black text-white py-8 px-5 text-center text-sm">

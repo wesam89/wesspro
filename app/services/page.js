@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ServicesPage() {
 return (
@@ -103,9 +104,12 @@ Complete drywall installation, framing adjustments, hole patching, crack repairs
 <p className="text-lg max-w-2xl mx-auto leading-relaxed">
 Experience superior painting, drywall, and finishing services with WESS PRO CONSTRUCTION INC. Our expert team delivers flawless results — from popcorn ceiling removal to perfect walls and custom painting — making your home or business look its absolute best.
 </p>
+
+<Link href="/quote">
 <button className="mt-8 px-8 py-3 bg-amber-400 hover:bg-amber-500 text-black font-bold rounded-lg cursor-pointer transition">
 Get Started
 </button>
+</Link>
 </div>
 </div>
 );
