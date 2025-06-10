@@ -63,6 +63,7 @@ return (
 <meta property="og:url" content="https://www.wesspro.ca/" />
 <meta property="og:image" content="https://www.wesspro.ca/images/wesspro-logoo.png" />
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="WESS PRO CONSTRUCTION INC" />
 </Head>
 
 <Menu />
