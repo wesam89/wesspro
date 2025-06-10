@@ -6,7 +6,7 @@ return (
 <div className="bg-gradient-to-l from-black to-[#c19220] text-white min-h-screen flex flex-col justify-center items-center px-5">
 <h1 className="bg-amber-300/0 text-5xl py-10 text-center">Contact Us</h1>
 <p className="text-center text-lg mb-12 max-w-2xl">
-We're here to help! Reach out to us anytime for inquiries, quotes, or general questions.
+We&apos;re here to help! Reach out to us anytime for inquiries, quotes, or general questions.
 </p>
 
 <div className="max-w-2xl text-lg flex flex-col items-center">
@@ -14,7 +14,7 @@ We're here to help! Reach out to us anytime for inquiries, quotes, or general qu
 <span className="mr-3">📞</span> +1 613-286-1085
 </p>
 <p className="mb-5 flex items-center">
-<span className="mr-3">📧</span> info@wesspro.ca
+<span className="mr-3">📧</span> wessprocounstruction@gmail.com
 </p>
 <p className="mb-8 flex items-center">
 <span className="mr-3">📍</span> 3240 Southgate Road, Unit 24, Ottawa, ON, Canada

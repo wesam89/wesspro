@@ -65,9 +65,9 @@ alt="Slideshow"
 className={`w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-0'}`}
 />
 <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 text-center text-[#FFD700] drop-shadow-lg w-full px-4">
-<h1 className="text-[6vw] md:text-[54px] font-bold">Ottawaâ€™s Premier Drywall & Painting Experts</h1>
+<h1 className="text-[6vw] md:text-[54px] font-bold">Ottawa Premier Drywall & Painting Experts</h1>
 <h2 className="text-[4vw] md:text-[28px] text-[#F5DEB3] mt-4">
-At WESS PRO CONSTRUCTION INC, we combine over 19 years of international expertise in drywall installation, taping, mudding, popcorn ceiling removal, and premium painting solutions. We bring precision and craftsmanship to every project â€” ensuring clean, flawless finishes and complete customer satisfaction across Ottawaâ€™s residential and commercial spaces.
+At WESS PRO CONSTRUCTION INC, we combine over 19 years of international expertise in drywall installation, taping, mudding, popcorn ceiling removal, and premium painting solutions. We bring precision and craftsmanship to every project ensuring clean, flawless finishes and complete customer satisfaction across Ottawa residential and commercial spaces.
 </h2>
 </div>
 </div>
