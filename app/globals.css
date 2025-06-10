@@ -1,43 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --background: rgb(230, 229, 229);
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+--background: rgb(230, 229, 229);
+--foreground: #171717;
+--main-font: 'Playfair Display', serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+background: var(--background);
+color: var(--foreground);
+font-family: var(--main-font), Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+.menu-toggle {
+display: block !important;
+position: absolute;
+top: 50%;
+right: 20px;
+transform: translateY(-50%);
+cursor: pointer;
+font-size: 30px;
+color: #fff;
+z-index: 9999;
 }
 
-.container {
-  @apply mx-auto flex min-h-screen min-w-screen flex-col justify-center bg-amber-600/0;
+.menu {
+display: none !important;
+flex-direction: column;
+gap: 20px;
+text-align: center;
+background: rgba(0, 0, 0, 0.9);
+position: absolute;
+top: 140px;
+right: 0;
+left: 0;
+padding: 20px;
+z-index: 9998;
 }
 
-.btn {
-  @apply cursor-pointer rounded-full bg-yellow-400 px-3 py-2 text-xs font-bold tracking-wider uppercase hover:bg-blue-400;
+.menu.active {
+display: flex !important;
+}
 }
 
-.textField {
-  @apply mb-6 w-full rounded border border-gray-200 px-3 py-2 shadow;
+/* تأكد من ظهور القائمة دائمًا على سطح المكتب */
+@media (min-width: 769px) {
+.menu {
+display: flex !important;
+flex-direction: row;
+gap: 40px;
+align-items: center;
 }
-
-.service {
-  @apply mb-5 flex flex-col px-5 py-5 md:flex-row;
 }
