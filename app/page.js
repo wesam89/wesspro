@@ -14,10 +14,10 @@ const images = [
 ];
 
 const testimonials = [
-{ name: "Liam Parker", text: "Exceptional ceiling popcorn removal and smooth finish. The team was organized, clean, and highly skilled. Excellent job!" },
-{ name: "Sarah Thompson", text: "Professional team, great results, and very affordable prices. Highly recommended!" },
-{ name: "David Wilson", text: "Fast service, high-quality drywall work, and perfect painting. 10/10!" },
-{ name: "Emily Johnson", text: "Very happy with the service. The crew was very clean and respectful of my home." }
+{ name: "Ahmed EID", text: "Excellent work beyond description. I recommend it to everyone and the prices are very good." },
+{ name: "Rafed Alwani", text: "Wess Pro delivered exceptional work with professionalism and attention to detail. Their team worked efficiently and produced high-quality results, I wouldn't hesitate to hire them again for future renovation projects and highly recommend them to anyone looking for reliable craftsmanship" },
+{ name: "Samar Faroukh", text: "Wess Pro Construction did a very professional job. Everything was clean and professional. I will rely on them for any future painting job I have and recommend them to my friends" },
+
 ];
 
 const [currentImage, setCurrentImage] = useState(0);
@@ -115,16 +115,12 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 {/* Testimonials Section */}
 <div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5 text-center">
 <h2 className="text-[7vw] md:text-[40px] mb-5">Ottawa Client Success Stories</h2>
+<div className="italic text-xl max-w-2xl mx-auto">{testimonials[currentTestimonial].text}</div>
+<div className="mt-5 font-bold">- {testimonials[currentTestimonial].name}</div>
 
-{/* Google Reviews Widget */}
-<div dangerouslySetInnerHTML={{ __html: `
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-aa3ef8db-51e0-443c-a85e-89aefa00372b" data-elfsight-app-lazy></div>
-` }} />
-
-{/* زر التقييم على Google */}
+{/* زر التقييم على فيسبوك */}
 <a
-href="https://g.page/r/CbqiSsY59cQtEAI/review"
+href="https://www.facebook.com/profile.php?id=61557441759603&sk=reviews"
 target="_blank"
 rel="noopener noreferrer"
 >
@@ -136,9 +132,39 @@ Leave a Review
 </a>
 </div>
 
+{/* Review Form (يمكنك حذفه إذا ما عدت تستخدمه) */}
+{/*
+<div id="review-form" className="bg-black text-white dark:bg-white dark:text-black py-20 px-5 text-center transition-colors duration-300">
+<h2 className="text-[7vw] md:text-[40px] mb-8">Leave a Review</h2>
+<form onSubmit={handleReviewSubmit} className="max-w-lg mx-auto">
+<input
+type="text"
+placeholder="Your Name"
+value={reviewName}
+onChange={(e) => setReviewName(e.target.value)}
+className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
+required
+/>
+<textarea
+placeholder="Your Review"
+value={reviewText}
+onChange={(e) => setReviewText(e.target.value)}
+className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 min-h-[120px] dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
+required
+/>
+<button
+type="submit"
+className="bg-[#FFD700] text-black px-7 py-3 rounded-lg text-lg font-semibold transition hover:bg-[#e6c200]"
+>
+Submit Review
+</button>
+</form>
+</div>
+*/}
+
 {/* Footer */}
 <div className="bg-black text-white py-8 px-5 text-center text-sm">
-© {new Date().getFullYear()} WESS PRO CONSTRUCTION INC. All rights reserved.
+Â© {new Date().getFullYear()} WESS PRO CONSTRUCTION INC. All rights reserved.
 </div>
 </div>
 );
