@@ -35,7 +35,7 @@ referrerPolicy="no-referrer-when-downgrade"
 <h3 className="text-center text-2xl mb-6 font-semibold">Follow us on social media:</h3>
 
 <div className="flex justify-center gap-8">
-<a href="https://www.facebook.com/profile.php?id=61557441759603&sk=about" target="_blank" rel="noopener noreferrer">
+<a href="https://www.facebook.com/wesspro.ca/" target="_blank" rel="noopener noreferrer">
 <img src="/icons/facebook.png" alt="Facebook" className="w-10 h-10" />
 </a>
 <a href="https://www.instagram.com/wesspro.ca?igsh=MTB0enpjbno1ZWljOQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
