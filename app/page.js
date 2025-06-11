@@ -120,7 +120,7 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 
 {/* زر التقييم على فيسبوك */}
 <a
-href="https://www.facebook.com/profile.php?id=61557441759603&sk=reviews"
+href="https://g.page/r/CbqiSsY59cQtEAI/review"
 target="_blank"
 rel="noopener noreferrer"
 >
