@@ -115,10 +115,14 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 {/* Testimonials Section */}
 <div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5 text-center">
 <h2 className="text-[7vw] md:text-[40px] mb-5">Ottawa Client Success Stories</h2>
-<div className="italic text-xl max-w-2xl mx-auto">{testimonials[currentTestimonial].text}</div>
-<div className="mt-5 font-bold">- {testimonials[currentTestimonial].name}</div>
 
-{/* زر التقييم على فيسبوك */}
+{/* Google Reviews Widget */}
+<div dangerouslySetInnerHTML={{ __html: `
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-aa3ef8db-51e0-443c-a85e-89aefa00372b" data-elfsight-app-lazy></div>
+` }} />
+
+{/* زر التقييم على Google */}
 <a
 href="https://g.page/r/CbqiSsY59cQtEAI/review"
 target="_blank"
@@ -132,39 +136,9 @@ Leave a Review
 </a>
 </div>
 
-{/* Review Form (يمكنك حذفه إذا ما عدت تستخدمه) */}
-{/*
-<div id="review-form" className="bg-black text-white dark:bg-white dark:text-black py-20 px-5 text-center transition-colors duration-300">
-<h2 className="text-[7vw] md:text-[40px] mb-8">Leave a Review</h2>
-<form onSubmit={handleReviewSubmit} className="max-w-lg mx-auto">
-<input
-type="text"
-placeholder="Your Name"
-value={reviewName}
-onChange={(e) => setReviewName(e.target.value)}
-className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
-required
-/>
-<textarea
-placeholder="Your Review"
-value={reviewText}
-onChange={(e) => setReviewText(e.target.value)}
-className="w-full p-4 mb-5 rounded-md bg-white text-black placeholder-gray-500 min-h-[120px] dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
-required
-/>
-<button
-type="submit"
-className="bg-[#FFD700] text-black px-7 py-3 rounded-lg text-lg font-semibold transition hover:bg-[#e6c200]"
->
-Submit Review
-</button>
-</form>
-</div>
-*/}
-
 {/* Footer */}
 <div className="bg-black text-white py-8 px-5 text-center text-sm">
-Â© {new Date().getFullYear()} WESS PRO CONSTRUCTION INC. All rights reserved.
+© {new Date().getFullYear()} WESS PRO CONSTRUCTION INC. All rights reserved.
 </div>
 </div>
 );
