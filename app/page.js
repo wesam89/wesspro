@@ -64,6 +64,28 @@ return (
 <meta property="og:image" content="https://www.wesspro.ca/images/wesspro-logoo.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="WESS PRO CONSTRUCTION INC" />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+"name": "WESS PRO CONSTRUCTION INC",
+"image": "https://www.wesspro.ca/images/wesspro-logoo.png",
+"url": "https://www.wesspro.ca",
+"telephone": "+1-613-286-1085",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "3240 Southgate Road",
+"addressLocality": "Ottawa",
+"addressRegion": "ON",
+"postalCode":"K1V8W7",
+"addressCountry": "CA"
+},
+"openingHours": "Mo-Fr 09:00-18:00",
+"priceRange": "$$",
+"sameAs": [
+"https://www.facebook.com/wesspro.ca/",
+"https://www.instagram.com/wesspro.ca/"
+]
+}) }} />
 </Head>
 
 <Menu />
