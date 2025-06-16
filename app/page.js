@@ -133,6 +133,40 @@ From drywall installation to popcorn ceiling removal and flawless painting, here
 <img src="/images/08.jpg" className="w-[300px] h-[200px] rounded-xl object-cover" alt="gallery4" />
 </div>
 </div>
+{/* FAQ Section */}
+<div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5">
+<h2 className="text-[7vw] md:text-[40px] text-center mb-10">Frequently Asked Questions</h2>
+<div className="max-w-4xl mx-auto space-y-4 text-left">
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">Can you remove popcorn ceiling without making a mess?</summary>
+<p className="mt-2">Yes, we use specialized equipment and professional techniques to minimize dust and disruption. Floors and furniture are fully covered before starting.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">What materials do you use for painting and drywall work?</summary>
+<p className="mt-2">We use only high-quality products from trusted brands like Benjamin Moore and Sherwin-Williams to ensure long-lasting and flawless finishes.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">Do you offer low-odor or eco-friendly paint options?</summary>
+<p className="mt-2">Yes, we offer low-VOC and no-VOC paint options ideal for households with kids, pets, or people with sensitivities.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">How long does the project take?</summary>
+<p className="mt-2">It depends on the size and scope of the project. We provide accurate time estimates after reviewing your specific needs.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">Do you guarantee the quality of your work?</summary>
+<p className="mt-2">Absolutely. We stand behind the quality of our work and offer a limited warranty after completion to ensure client satisfaction.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">Is the estimate free?</summary>
+<p className="mt-2">Yes, we provide free estimates for all projects in Ottawa and nearby areas. You can request one online or by phone.</p>
+</details>
+<details className="bg-[rgba(255,215,0,0.10)] rounded-md px-6 py-4">
+<summary className="cursor-pointer text-lg font-semibold">Do you work on weekends?</summary>
+<p className="mt-2">Yes, weekend appointments are available based on client needs and scheduling.</p>
+</details>
+</div>
+</div>
 
 {/* Testimonials Section */}
 <div className="bg-gradient-to-r from-black to-[#b57e2b] text-white py-20 px-5 text-center">
