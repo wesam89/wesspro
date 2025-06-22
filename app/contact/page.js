@@ -17,7 +17,7 @@ We are always here to help! Reach out to us anytime for inquiries, quotes, or ge
 <span className="mr-3">📧</span> info@wesspro.ca
 </p>
 <p className="mb-8 flex items-center">
-<span className="mr-3">📍</span> 3240 Southgate Road, Unit 24, Ottawa, ON, Canada
+<span className="mr-3">📍</span> 3240 Southgate Road, Unit 24, Ottawa, ON
 </p>
 
 <div className="mb-12 w-full">
