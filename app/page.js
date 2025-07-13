@@ -62,6 +62,8 @@ return (
 <meta property="og:title" content="WESS PRO CONSTRUCTION INC - Ottawa's Best Drywall & Painting Services" />
 <meta property="og:url" content="https://www.wesspro.ca/" />
 <meta property="og:image" content="https://www.wesspro.ca/images/wesspro-logoo.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="WESS PRO CONSTRUCTION INC" />
 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -87,6 +89,7 @@ return (
 ]
 }) }} />
 </Head>
+
 
 <Menu />
 
