@@ -68,7 +68,7 @@ return (
 "@context": "https://schema.org",
 "@type": "LocalBusiness",
 "name": "WESS PRO CONSTRUCTION INC",
-"image": "https://www.wesspro.ca/images/wesspro-logoo.png",
+"image": "https://www.wesspro.ca/images/wesspro-logov.png",
 "url": "https://www.wesspro.ca",
 "telephone": "+1-613-286-1085",
 "address": {
