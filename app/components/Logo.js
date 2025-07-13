@@ -3,7 +3,7 @@ import Image from 'next/image';
 function Logo() {
   return (
     <div className="relative w-30">
-      <Image src="icons\wess-golden.svg" alt="SVG image" layout="fill" />
+      <Image src="/images/wesspro-logoo.png" alt="WESS PRO CONSTRUCTION INC" layout="fill" />
     </div>
   );
 }

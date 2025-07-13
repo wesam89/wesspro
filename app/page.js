@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Menu from './components/Menu';
 
+
 export default function Home() {
 const images = [
 '/images/renew-house.jpg',
